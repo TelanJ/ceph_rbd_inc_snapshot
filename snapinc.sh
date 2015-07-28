@@ -35,7 +35,7 @@ case $key in
     shift # past argument
     ;;
     -h|--help)
-    MODE="$2"
+    MODE="help"
     shift # past argument
     ;;
     --default)
@@ -47,6 +47,9 @@ case $key in
             # unknown option
     ;;
 esac
+shift
+done
+
 
 if [ "$MODE" == "backup" ]; then
   #what is today's date?
