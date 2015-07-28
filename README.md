@@ -1,7 +1,7 @@
 ## snapinc
 
 
-#snapinc is a cli client for backup/restore/purge of ceph rbd images from local machines to remote machines and vice-versa.
+Snapinc is a cli client for backup/restore/purge of ceph rbd images from local machines to remote machines and vice-versa.
 
 Syntax: 
 
